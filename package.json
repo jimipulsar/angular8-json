@@ -23,6 +23,8 @@
     "@angular/router": "~8.2.7",
     "@auth0/angular-jwt": "^3.0.0",
     "@ngrx/data": "^8.4.0",
+    "@ngrx/effects": "8.6.0",
+    "@ngrx/entity": "8.6.0",
     "@ngrx/store": "^8.4.0",
     "acorn": "^6.4.1",
     "angular2-uuid": "^1.1.1",
