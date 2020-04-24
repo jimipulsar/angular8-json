@@ -3,7 +3,7 @@ import { Component, OnInit, ViewChild, HostListener } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
 import { MatDialog } from '@angular/material';
 import { DialogModalExampleComponent } from './dialog-modal-example/dialog-modal-example.component';
-import  *  as  data  from  './API/data.json';
+
 
 @Component({
   selector: 'app-root',
