@@ -1,0 +1,42 @@
+<div class="container">
+<div class="title-group">
+    <h2 class="mat-h2 maintext">Modifica Studente</h2>
+    <hr>
+  </div>
+
+    <div class="inner-wrapper">
+      <form fxLayout="column" [formGroup]="studentForm" (ngSubmit)="updateStudentForm()">
+      
+        <mat-card>
+          <div class="controlers-wrapper">
+       
+            <mat-form-field class="example-full-width">
+              <input matInput placeholder="Nome Studente" formControlName="name">
+              
+            </mat-form-field>
+    
+         
+            <mat-form-field class="example-full-width">
+              <input matInput placeholder="age" formControlName="age">
+              
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+                <input matInput placeholder="address" formControlName="address">
+               
+              </mat-form-field>
+
+          </div>
+        </mat-card>
+    
+        <mat-card>
+          <div class="full-wrapper button-wrapper">
+            <div class="button-wrapper">
+              <button mat-flat-button color="warn">Aggiorna</button>
+              <button mat-flat-button color="primary" href="#" routerLink="/list">Indietro</button>
+            </div>
+          </div>
+        </mat-card>
+      </form>
+    </div> 
+</div>

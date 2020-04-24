@@ -1,0 +1,34 @@
+{
+  "students": [
+    {
+      "name": "Franco Califfani",
+      "age": "14",
+      "address": "Via Pistoiese 55 - Firenze",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Giuseppe Barone",
+      "age": "15",
+      "address": "Via Alfani 45 - Roma"
+    },
+    {
+      "id": 3,
+      "name": "Michele Boriello",
+      "age": "14",
+      "address": "Piazza Grande, 24 - Bologna"
+    },
+    {
+      "id": 4,
+      "name": "Marco Bonaventura",
+      "age": "17",
+      "address": "Piazza Mazzini, 34 - Torino"
+    },
+    {
+      "id": 5,
+      "name": "Paolo Poggini",
+      "age": "14",
+      "address": "Via Califati, 22 - Perugia"
+    }
+  ]
+}

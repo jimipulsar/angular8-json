@@ -1,0 +1,43 @@
+<!-- dialog-modal-example.component.html -->
+<div class="container">
+
+      <h2 class="mat-h2 maintext">Aggiungi Studente</h2>
+      <hr>
+  
+  
+      <div class="flex-layout">
+        <form fxLayout="column"  [formGroup]="studentForm" (ngSubmit)="submitForm()">
+        
+          <mat-card>
+            <div class="controlers-wrapper">
+              
+              <mat-form-field class="example-full-width" >
+                <input matInput placeholder="Nome Studente" formControlName="name">
+                
+              </mat-form-field>
+      
+           
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Età" formControlName="age">
+                
+              </mat-form-field>
+  
+              <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Indirizzo" formControlName="address">
+                 
+                </mat-form-field>
+  
+            </div>
+          </mat-card>
+      
+          <mat-card>
+            <div class="full-wrapper button-wrapper">
+              <div class="button-wrapper">
+                  <button mat-flat-button color="warn" >Invia</button>
+                  <button mat-raised-button color="primary" id="modal-cancel-button" (click)="closeModal()">Indietro</button>
+              </div>
+            </div>
+          </mat-card>
+        </form>
+      </div> 
+  </div>
