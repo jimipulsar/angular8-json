@@ -9,7 +9,7 @@
 <button mat-raised-button [routerLink]="['/create']"  style="margin-bottom:10px;" color="accent" type="button" class="btn-center" >Aggiungi Studente</button>
 </div>
 
-<p style="color:#003075; padding:20px; margin-bottom:-5px; margin-top:20px;" *ngIf="studentsData.length <= 0" class="box card fade-in no-data">Non ci sono studenti in lista! Per visualizzarli, entra nella cartella src/API e collega il file data.json al server tramite il comando "json-server --watch data.json".</p>
+<p style="color:#003075; padding:20px; margin-bottom:-5px; margin-top:20px; display:flex; flex-direction:column; width:70%;" *ngIf="studentsData.length <= 0" class="box card fade-in no-data">Non ci sono studenti in lista! Per visualizzarli, entra nella cartella src/API e collega il file data.json al server tramite il comando "json-server --watch data.json".</p>
 
 
 <div class="container" *ngIf="studentsData.length > 0" >
